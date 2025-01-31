@@ -1,0 +1,16 @@
+.caption {
+    font-size: 10px;
+    font-style: italic;
+}
+
+.red-text {
+    color: darkred; /* Set text color to dark red */
+}
+
+.blue-text {
+    color: darkblue; /* Set text color to dark blue */
+}
+
+.bold {
+    font-weight: bold;
+}

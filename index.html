@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- Import Bootstrap and CSS -->
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <!-- Responsive navbar -->
+    <nav class="navbar navbar-expand-md bg-light navbar-light">
+        <div class="container">
+            <a href="#" class="navbar-brand">DD</a>
+            
+            <!-- Hamburger collapse button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navmenu"> <!-- allow collapse on smaller screens -->
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About</a>
+                    </li>
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="music.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Music</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="music-subpages/musical-works.html">Musical Works</a></li>
+                          <li><a class="dropdown-item" href="music-subpages/orch-arrangements.html">Orchestral Arrangements</a></li>
+                          <li><a class="dropdown-item" href="music-subpages/scores.html">Scores</a></li>
+                        </ul>
+                      </li>
+
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="music-eng.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Music & Engineering</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="music-eng-subpages/cantovario.html">CantoVario</a></li>
+                        <li><a class="dropdown-item" href="music-eng-subpages/engineers-orch.html">Engineers' Orchestra</a></li>
+                        <li><a class="dropdown-item" href="music-eng-subpages/publication-science.html">Publication in Science</a></li>
+                    </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="eng.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Engineering</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="eng-subpages/masters.html">Master's</a></li>
+                            <li><a class="dropdown-item" href="eng-subpages/patents-trademarks.html">Patents & Trademarks</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="olin.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Building Olin</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="olin-subpages/ahs.html">AHS</a></li>
+                            <li><a class="dropdown-item" href="olin-subpages/ece.html">ECE</a></li>
+                            <li><a class="dropdown-item" href="olin-subpages/first-year.html">First Year</a></li>
+                            <li><a  class="dropdown-item" href="olin-subpages/integrated-eng.html">Integrated Engineering</a></li>
+                            <li><a class="dropdown-item" href="olin-subpages/music-program.html">Music Program</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Intro text -->
+    <div class="container">
+        <h1>Hello! Welcome to Diana Dabby's Portfolio.</h1>
+        <img src="images/Diana Dabby 2022-20.jpg" class="rounded float-end" style="height: 300px; margin-left: 10px">
+        <!-- Add lighter background -->
+            <p>Diana Dabby has taught at MIT, Tufts University, and the Juilliard School. She holds degrees in music and electrical engineering from Vassar, Mills, C.C.N.Y., and MIT.</p>
+
+            <p>As Music Program Director and Electrical Engineering faculty at Olin College of Engineering, she teaches orchestration, composition, performance and signal processing, as well as interdisciplinary courses connecting the arts and sciences. In her doctoral research at MIT, Dabby combined music and engineering by devising a chaotic mapping for musical variation.  Awarded five patents, her work with chaotic systems and musical variation has been featured on NPR member station WBUR (2004), NPR’s Weekend Edition (2007), in Science (2008) and the Boston Globe (2013), as well as at a number of invited concert/lectures. A new web application, CantoVario, brings together the fields of music, chaos science, signal processing, and acoustics to create song variations.  Currently under development with the MIT Venture Mentoring Service (VMS) program, this work was selected for MIT’s VMS Demo Day 2014, Entrepreneurial Edge Showcase 2017, and the MIT Innovation Corps (2018), a program sponsored by the National Science Foundation (NSF).  In March 2019, CantoVario was selected for the National Teams Innovation Corps (I-Corps) sponsored by NSF and awarded a 50K grant for customer discovery.  In June 2020, NSF awarded her a “Partnerships for Innovation-Technology Transfer” grant for 250K, funding research and development as CantoVario moves from prototype to product.</p>
+            
+            <p>Reflecting her professional record as a concert pianist and composer, Diana Dabby's work has been heard at Boston’s Jordan Hall, Symphony Hall, Tanglewood, in New York at Weill (Carnegie) Recital Hall and Merkin Concert Hall, as well as on both coasts and abroad.</p>
+            
+            <p>Past compositions include <em>Who was Wissam Eid?</em> (2017), <em>Fuente y Variación</em> (2013), <em>Tre Studi di Colore</em> (2012), and <em>September Quartet</em> (2011) which received its world premiere on the tenth anniversary of 9/11. The world première of <em>Parallel Voices—Distant Mirrors</em> (2018) for bass/alto flutes, voice, piano and soundscape featured a new listening experience for the audience: seat location determined the variation path heard through the soundscape.  The 5-movement work explores parallel universes in Iraq and the United States.  As an orchestrator, she has created 147 arrangements of symphonic works for the Olin Conductorless Orchestra, ranging from 6 to 22 players (2002 – present). </p>
+            
+            <p>In January 2017, a book chapter (“The Engineers’ Orchestra—a conductorless orchestra for our time”) was published by Springer Nature in Creative Ways of Knowing in Engineering (Baraiktarova and Eodice, eds.). In December 2019, her paper “The Engineers’ Orchestra: a Conductorless Orchestra for Developing 21st Century Professional Skills”, written for the 2019 ASEE Zone 1 International Conference in Niagara Falls, NY, was selected as the “ASEE Zone 1 Best Paper” of 2019.  Another paper, “A Multidisciplinary Mid-Level Electrical and Mechanical Engineering Course”, written with colleagues Christopher Lee, Siddhartan Govindasamy, and Paul Ruvolo was selected for the ASEE Multidisciplinary Engineering Division, Best Paper Award, “in recognition of outstanding excellence in a technical paper at the 2021 ASEE Annual Conference.”</p>
+            
+            <p>In May 2024, the Harvard Radcliffe Institute for Advanced Study awarded Dabby a Radcliffe Fellowship for 2024-25. As the Lillian Gollay Knafel Fellow, she will realize a project focused on three goals: a potentially disruptive technology for variation of musical works; a “variation concert” in which seat location determines what is heard; and preparation for a book examining artists whose scientific acumen gave their artistic work an indelible stamp. The tripartite project arose from her work at the nexus of engineering and the arts. </p>
+
+            <!-- Intro buttons -->
+            <div class="d-grid gap-2 d-md-flex mx-auto">
+                <a class="btn btn-outline-dark mx-auto" href="about.html" role="button">More About Diana</a>
+
+                <a class="btn btn-outline-dark mx-auto" href="docs/Diana Dabby CV.pdf" download  target="_blank" role="button">Curriculum Vitae</a>
+            </div>
+        
+        <!-- A Three-Part Story -->
+        <h3 class="mt-4">A Three-Part Story</h3>
+        <div class="row mt-2">
+            <div class="col">
+                <b>Pianist & Composer</b>
+                <p>As a concert pianist and composer, my work has been heard in New York at Weill (Carnegie) Recital Hall and Merkin Concert Hall; in Boston at Jordan Hall and Symphony Hall; at Tanglewood; on both coasts and abroad. My latest work featured a concert of "Variations and Shadows", where seat location determined what a listener heard. At Olin College, I've produced 323 concerts, performing as a pianist in 77 of them.</p>
+                <a class="btn btn-outline-dark mb-4" href="music-subpages/musical-works.html" role="button">Learn More</a>
+            </div>
+            <div class="col">
+                <b>Engineer & Inventor</b>
+                <p>As an engineer, I hold SM and PhD degrees in Electrical Engineering and Computer Science from MIT. My doctoral thesis combined chaos science and electrical engineering to create musical variations of the pitch sequence of a MIDI song. I've since invented techniques for creating rhythmic and pitch variations of MIDI and audio songs, including mashups. This work has been awarded $300k in NSF grants for research and development.</p>
+                <a class="btn btn-outline-dark mb-4" href="eng-subpages/masters.html" role="button">Learn More</a>
+            </div>
+            <div class="col">
+                <b>Entrepreneurial Thinker</b>
+                <p class="fst-italic" style="font-size: 14px">Artists, scientists, and engineers often practice a broad definition of entrepreneurship: the ability to articulate a vision and bring it to fruition.</p>
+                <p>I've articulated and realized a dynamic music that changes from one hearing to the next, much in the same way a river changes from season-to-season but is recognizable in its essence. Towards this end, I've created CantoVario, a project that encompasses my work with musical variation, chaos science, signal processing, and acoustics.</p>
+                <a class="btn btn-outline-dark mb-4" href="music-eng-subpages/cantovario.html" role="button">Learn More</a>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>
